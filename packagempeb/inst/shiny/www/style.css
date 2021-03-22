@@ -1,0 +1,44 @@
+.skin-green .main-header .logo {background-color:#00a65a;}
+.inactiveLink {pointer-events: none;cursor: default;background: grey;}
+.js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {background: #00a65a}
+.progress-bar {background-color:#00a65a;}
+#link{color:#00a65a}
+body {
+          font-size: 14.5px;
+          }
+          .ttooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+          }
+
+          .ttooltip .ttooltiptext {
+            visibility: hidden;
+            width: 350px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            top: 150%;
+            left: 50%;
+            margin-left: -60px;
+          }
+
+          .ttooltip .ttooltiptext::after {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent black transparent;
+          }
+
+          .ttooltip:hover .ttooltiptext {
+            visibility: visible;
+          }
+

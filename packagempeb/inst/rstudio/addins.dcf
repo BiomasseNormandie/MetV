@@ -1,0 +1,4 @@
+Name: MPEB
+Description: Permet de faire une approche MPEB sur des jeux de données de consommation.
+Binding: launch_mpeb
+Interactive: true

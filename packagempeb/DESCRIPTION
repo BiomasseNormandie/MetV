@@ -1,0 +1,20 @@
+Package: packagempeb
+Title: MPEB / M&V (option C)
+Version: 0.9.0
+Authors@R: 
+    person(given = "Quentin",
+           family = "Giffard",
+           role = c("aut", "cre"),
+           email = "q.giffard@biomasse-normandie.org",
+           comment = c("Ce code a été réalisé dans le cadre du projet de recherche MPEB, piloté par le CSTB."))
+Description: Ce package permet de réaliser une modélisation à partir de différents types de régressions (multivariables, par morceaux, TOWT).
+License: CeCILL
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    shiny (>= 0.13),
+    dplyr,
+    lubridate,
+    zoo
