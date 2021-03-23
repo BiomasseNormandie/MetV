@@ -24,7 +24,7 @@ Starting the UI
 ---------------
 
 Once the package is installed, to start the User Interface you’ll have
-to click on Addins –\> MPEB ![How to click an addin.](addins.png)
+to click on Addins –\> MPEB ![How to click an addin.](inst/shiny/www/addins.png)
 
 The first run will take few minutes to install the other required
 packages.
