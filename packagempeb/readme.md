@@ -1,7 +1,7 @@
 Package MPEB
 ============
 
-This is an package developed by Biomasse Normandie. It was tested for R
+This package is developed by Biomasse Normandie. It was tested for R
 version 4.0.4.
 
 Installation
@@ -24,7 +24,7 @@ Starting the UI
 ---------------
 
 Once the package is installed, to start the User Interface you’ll have
-to click on Addins –\> MPEB
+to click on Addins –\> MPEB ![How to click an addin.](addins.png)
 
 The first run will take few minutes to install the other required
 packages.
