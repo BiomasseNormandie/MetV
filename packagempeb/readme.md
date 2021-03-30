@@ -7,8 +7,15 @@ version 4.0.4.
 Installation
 ------------
 
-To use packagempeb you have to install devtools package with the
-following lines :
+To use packagempeb you have to install  
+	
+- R (version 3.4.2 or later), which is an open source programming language and software environment for statistical computing : https://cran.r-project.org/
+- A web browser such as Chrome, Firefox or Safari
+- RStudio, which is an open source integrated development environment (IDE) for R : https://www.rstudio.com/
+- devtools R package, which is providing R functions that simplify R package installation from github
+
+Once R and RStudio are installed, open RStudio
+Install devtools package with the following lines :
 
 ``` r
 install.packages("devtools")
